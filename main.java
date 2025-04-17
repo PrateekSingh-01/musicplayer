@@ -11,7 +11,8 @@ import javax.sound.sampled.UnsupportedAudioFileException;
 public class main {
    public static void main(String[] args) {
 
-    String filePath = "2 Khatole.wav";
+    String filePath = "moonlight.wav";/*drag and drop your song in wav format in the folder and copy the path past it in filepath and use
+       this sample code*/
     File file = new File(filePath);
 
     try(Scanner scanner = new Scanner(System.in);AudioInputStream audiostream = AudioSystem.getAudioInputStream(file)){
