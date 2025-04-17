@@ -1,8 +1,19 @@
-🔊 BASIC JAVA PROJECT
-🎵 (MUSIC PLAYER) 🎵
+# 🎵 Java Music Player 🎶
 
-HOW CAN YOU USE IT? It’s super simple! 👇
-1️⃣ Copy my sample code and paste it into a Java compiler (I recommend VS Code)
-2️⃣ Drag and drop your favorite song in .wav format into the project folder
-3️⃣ Copy the file path and paste it in the filePath variable in the code
-4️⃣ Run it and enjoy your music player in action! 😎🎶
+A simple console-based music player built using Java that can play `.wav` audio files.
+
+## ✅ Features
+- ▶️ Play music
+- ⏹️ Stop music
+- 🔁 Reset playback
+- ❌ Quit the player
+- Simple and easy-to-understand code
+
+## 💻 How to Run
+
+1. **Copy the code** from `main.java` (available in this repository)
+2. **Open in any Java IDE or compiler** (I recommend VS Code or IntelliJ)
+3. **Drag and drop** your favorite song in `.wav` format into the project folder
+4. **Update the file path** in this line of code:
+   ```java
+   String filePath = "YourFileName.wav";
