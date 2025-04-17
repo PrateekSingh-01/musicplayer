@@ -1,1 +1,2 @@
-# musicplayer
+BASIC JAVA PROJECT
+MUSIC PLAYER
